@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4815516566230269701
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VrealEyeAdvance
+  m_Shader: {fileID: -6465566751694194690, guid: 2ba5451f84cb8d142b2fd5c48e91de82,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CorneaBump:
+        m_Texture: {fileID: 2800000, guid: 1495d8e229301a749941a0164048e848, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseCube:
+        m_Texture: {fileID: 8900000, guid: 81c5d3ca8d6bbae4387ed43e6ada115a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeBump:
+        m_Texture: {fileID: 2800000, guid: 6412cb1aa2dc223449b594de46116151, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisBump:
+        m_Texture: {fileID: 2800000, guid: 33ad106a097e8dc4bbee86320a97a454, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisColorTex:
+        m_Texture: {fileID: 2800000, guid: 00212ff6b5e158c4ba11fa890c986329, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisTex:
+        m_Texture: {fileID: 2800000, guid: 19599c97f9810884b974cddb61d08c6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dad3e74fda8a90b4d9c58d2678c60e5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeIrisTex:
+        m_Texture: {fileID: 2800000, guid: b0412683819b9a14abde7c1ea90e52c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeScleraTex:
+        m_Texture: {fileID: 2800000, guid: 300a23d968541c5459d8efdc20d5efaf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularCube:
+        m_Texture: {fileID: 8900000, guid: 7b56808b593c76a41aa7491c7d8f5002, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _brightShift: 1
+    - _irisShadowAmt: 1
+    - _irisSize: 1.79
+    - _limbus: 0.451
+    - _parallax: 0
+    - _pupilSize: 0
+    - _reflectTerm: 0.105
+    - _scleraShadowAmt: 0.184
+    - _scleraSize: 1
+    - _smoothness: 1
+    - _specsize: 0.87
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _illumColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0}
+    - _irisColor: {r: 1, g: 1, b: 1, a: 1}
+    - _limbalColor: {r: 0.6037736, g: 0.45283014, b: 0.45283014, a: 0.56078434}
+    - _scleraColor: {r: 1, g: 1, b: 1, a: 1}
+    - _subDermColor: {r: 1, g: 0.1862069, b: 0, a: 0.3137255}
+  m_BuildTextureStacks: []
